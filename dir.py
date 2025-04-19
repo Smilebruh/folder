@@ -39,8 +39,9 @@ class GeneralTree():
 
 
 # Test
-x = GeneralTree()
-x.make_tree()
+if __name__ == "__main__":
+    x = GeneralTree()
+    x.make_tree()
 
-print([i.path for i in x.folder])
-x.print_all()
+    print([i.path for i in x.folder])
+    x.print_all()
